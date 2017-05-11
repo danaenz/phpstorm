@@ -1,0 +1,238 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="598d4ad8-84c0-49d7-9761-4aaf2ce7cdb7" name="Stray UAT" url="http://dev.straytravel.com">
+        <fileTransfer host="in.devmode.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6eae09d2-13c5-4008-b437-52591ed75cdf" name="Stray Booking Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="98486b1f-3eed-4f8a-817d-88d3a4d48987" name="Polished Concrete Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="81df13b1-bb1e-47dd-aa5d-bfd195709a2a" name="Ted Tracey Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c1dc6c0e-6546-4b1d-9f46-d3440eb67164" name="NZRIA Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="164793d3-120e-4e5f-a531-86ecc712fe81" name="Teesdale Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="22d48ff0-1d88-49a6-a174-d473341cbf10" name="FIS Live" url="http://fis-international.com">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0ed7c54e-cc1c-4b64-b1fc-577f606792e4" name="TRG Intranet" url="http://webdough.co.nz/~trgint">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6d92e656-85fd-43a7-84b2-8858f2585a5f" name="BlindsOnline Live" url="http://in.devmode.nz">
+        <fileTransfer host="in.devmode.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="45d3f6ea-4327-4624-8165-c78bb51dd4e1" name="Nutribullet NZ" url="http://webdough.co.nz/~trgint">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="49af346a-8846-4eda-99b1-d18f3e5c88cd" name="Nutribullet AUS" url="http://webdough.co.nz/~trgint">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9debd32c-9d99-403b-bc02-6d2d10aa9659" name="HomePlus Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a8ba5aaa-e76d-4c67-b4f0-262992bcbf1c" name="Polished Concrete" url="http://localhost">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/polished-concrete" accessType="MOUNT" />
+      </webServer>
+      <webServer id="c7190459-639b-4bfb-96e7-93de966f16db" name="Orca" url="http://fis-international.com">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ef429e9b-4d3b-4051-8953-ec2cbcb8119a" name="Dimension" url="http://pantry.local/_SILVERSTRIPE/dimension-shopfitters">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/dimension-shopfitters" accessType="MOUNT" />
+      </webServer>
+      <webServer id="11e0da63-6008-4813-9a2b-d029b240ae3a" name="Teesdale Pantry" url="http://pantry.local/_SILVERSTRIPE/teesdale">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/teesdale" accessType="MOUNT" />
+      </webServer>
+      <webServer id="bc6db8b0-3096-4066-99cd-56957d8f08c5" name="Cadman Pantry" url="http://pantry.local/_SILVERSTRIPE/cadman">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/cadman" accessType="MOUNT" />
+      </webServer>
+      <webServer id="f3cdd464-cd12-49b2-8d3e-7c1c563846c9" name="Cadman Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fe898e42-3f09-4e9d-907c-3282bc986881" name="HAT Pantry" url="http://pantry.local/">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/hat" accessType="MOUNT" />
+      </webServer>
+      <webServer id="4d1e9598-2a5a-4dbe-a0d2-d09327793e8a" name="Tennis Pathways" url="http://pantry.local/_SILVERSTRIPE/tennis-pathways">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/tennis-pathways" accessType="MOUNT" />
+      </webServer>
+      <webServer id="2818f42b-816e-41db-9cfc-86fbfbc49a31" name="MRP" url="http://pantry.local/_SILVERSTRIPE/mrp-online-newsletter">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/mrp-online-newsletter" accessType="MOUNT" />
+      </webServer>
+      <webServer id="9233c75f-0204-4b73-8720-64b0238a38d8" name="James Hardie Live" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6d4bceed-98e3-4aa3-a3c7-b76d35bf15dc" name="NZRIA Pantry" url="http://pantry.local/_SILVERSTRIPE/">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/nzria" accessType="MOUNT" />
+      </webServer>
+      <webServer id="411e73b6-7def-4193-9b04-8f4c1df3e9e1" name="Nutribullet Pantry" url="http://pantry.local/_SILVERSTRIPE/nutribullet">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/nutribullet" accessType="MOUNT" />
+      </webServer>
+      <webServer id="3d110b62-5c7e-4394-b365-906f619ae8ec" name="Juralco Balustrades Pantry" url="http://pantry.local/juralcoBalustrade">
+        <fileTransfer mountedRoot="/Volumes/sites/juralcoBalustrade" accessType="MOUNT" />
+      </webServer>
+      <webServer id="cbba3a8b-dff9-472e-875a-968b7bf46331" name="Denturetech Pantry" url="http://pantry.local/denturetech">
+        <fileTransfer mountedRoot="/Volumes/sites/denturetech" accessType="MOUNT" />
+      </webServer>
+      <webServer id="4c514b09-f9c6-44ca-b337-583ee3a0ebb8" name="Spaceships Pantry" url="http://pantry.local">
+        <fileTransfer mountedRoot="/Volumes/sites/spaceships" accessType="MOUNT" />
+      </webServer>
+      <webServer id="45434d10-144c-43bb-9d8e-8827057120e0" name="FIS Pantry" url="http://pantry.local/_SILVERSTRIPE/fisshop">
+        <fileTransfer mountedRoot="/Volumes/sites/_SILVERSTRIPE/fisshop" accessType="MOUNT" />
+      </webServer>
+      <webServer id="eb03e9b3-1c6d-4967-b692-cb8ca936c27e" name="Stray Affiliates Temp" url="http://ftp.lab.sitehost.co.nz">
+        <fileTransfer host="ftp.lab.sitehost.co.nz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7d5a16e5-8b08-4f11-8846-48e890406b38" name="Stray Affiliates NZ" url="http://localhost/stray-affiliates/affiliates.straytravel.com/web">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="31270b96-5cd1-4c7d-8060-ff469e346161" name="Stray Affiliates Asia" url="http://localhost/stray-affiliates/affiliates.straytravel.asia">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="11d1ee02-923c-41c7-bc33-38fb3a1a73f7" name="localhost" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="59f4bc37-67c3-40b8-9b63-0ac54a755840" name="MDS Live" url="http://server.webdough.co.nz">
+        <fileTransfer host="server.webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fe43aca8-6ef0-4bb1-9c20-e484e1dd06f8" name="Stray Wifi Staging" url="http://webdough.co.nz">
+        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bfd06ac7-f6ff-42ac-b8da-84a9e0e50d66" name="AKL Weddings" url="http://111.65.227.160">
+        <fileTransfer host="111.65.227.160" port="22" rootFolder="/var/www/vhosts/aucklandweddings.co.nz/httpdocs" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d099149f-82ac-4864-93b2-268a2209d98d" name="Toast Assets" url="http://assets.toast.co.nz">
+        <fileTransfer host="assets.toast.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="dee2d0e6-157f-444b-8828-eda19f068cc3" name="DebitSuccess Live" url="http://server.webdough.co.nz">
+        <fileTransfer host="server.webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bafda87e-22b0-4144-a42b-e9403c8970fe" name="Mint Live" url="http://in.devmode.nz">
+        <fileTransfer host="in.devmode.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c4fa5134-9d07-4b22-80f0-97950be1b813" name="Make a Wish Live" url="http://server.webdough.co.nz">
+        <fileTransfer host="server.webdough.co.nz" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

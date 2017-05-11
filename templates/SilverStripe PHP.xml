@@ -1,0 +1,77 @@
+<templateSet group="SilverStripe PHP">
+  <template name="doprops" value="private static $singular_name = '$NAME$';&#10;private static $plural_name = '$PLNAME$';&#10;private static $default_sort = 'SortOrder';&#10;$END$" description="Creates the default set of properties for DataObjects" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PLNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="has1" value="private static $has_one = [&#10;    '$NAME$' =&gt; '$VALUE$'$END$&#10;];" description="private static $has_one" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="db" value="private static $db = [&#10;    '$NAME$' =&gt; '$VALUE$'$END$&#10;];" description="private static db" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="manymany" value="private static $many_many = [&#10;    '$NAME$' =&gt; '$VALUE$'$END$&#10;];" description="private static $many_many" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="getcms" value="/**&#10; * @return FieldList&#10; */&#10;public function getCMSFields()&#10;{&#10;    /** =========================================&#10;     * @var FieldList $fields&#10;     * ========================================*/&#10;&#10;    $fields = parent::getCMSFields();&#10;&#10;    /** -----------------------------------------&#10;     * $HEADING$&#10;     * ----------------------------------------*/&#10;    &#10;    $END$&#10;    &#10;    return $fields;&#10;}" description="getCMSFields" toReformat="false" toShortenFQNames="true">
+    <variable name="HEADING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ptprops" value="private static $singular_name = '$NAME$';&#10;private static $plural_name = '$PL_NAME$';&#10;private static $description = '$DESC$';&#10;private static $icon = '';&#10;private static $can_be_root = true;&#10;&#10;private static $allowed_children = [&#10;    $KIDS$&#10;];&#10;&#10;$END$&#10;" description="Creates the default set of properties for PageTypes" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PL_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="KIDS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="manyextra" value="private static $many_many_extraFields = [&#10;    '$RELATION$' =&gt; [&#10;        '$PROPERTY$' =&gt; '$VALUE$'$END$&#10;    ]&#10;];" description="private static $many_many_extraFields" toReformat="false" toShortenFQNames="true">
+    <variable name="RELATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="crud" value="/* ==========================================&#10; * CRUD&#10; * ========================================*/&#10;&#10;public function canView($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canEdit($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canDelete($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canCreate($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}" description="Generates CRUD permissions for dataobjects" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dogrid" value="$config = GridFieldConfig_RelationEditor::create(50);&#10;$config-&gt;addComponent(GridFieldOrderableRows::create('SortOrder'))&#10;    -&gt;removeComponentsByType('GridFieldDeleteAction')&#10;    -&gt;addComponent(new GridFieldDeleteAction())&#10;    -&gt;removeComponentsByType('GridFieldAddExistingAutoCompleter');&#10;&#10;$gridField = GridField::create(&#10;    '$START$',&#10;    '$LABEL$',&#10;    $this-&gt;$OBJECTS$(),&#10;    $config&#10;);&#10;&#10;$fields-&gt;addFieldsToTab('Root.$TAB$', [&#10;    HeaderField::create('', '$END$'),&#10;    $gridField&#10;]);" description="Generates GridField with default settings" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OBJECTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAB" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="has_many" value="private static $has_many = [&#10;    '$NAME$' =&gt; '$VALUE$'$END$&#10;];" description="Has many" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="docrud" value="/* ==========================================&#10; * CRUD&#10; * ========================================*/&#10;&#10;public function canView($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canView($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canEdit($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canEdit($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canDelete($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canDelete($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canCreate($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canCreate($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}" description="DataObject with Parent specific crud" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

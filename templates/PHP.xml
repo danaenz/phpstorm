@@ -1,0 +1,17 @@
+<templateSet group="PHP">
+  <template name="pris" value="private static $END$" description="private static" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="h1" value="/** =========================================&#10; * @var $END$&#10; * ========================================*/" description="Creates main docblock" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="h2" value="/** -----------------------------------------&#10; * $END$&#10; * ----------------------------------------*/" description="Creates secondary docblock" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
