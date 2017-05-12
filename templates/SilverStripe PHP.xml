@@ -67,7 +67,6 @@
   <template name="has_many" value="private static $has_many = [&#10;    '$NAME$' =&gt; '$VALUE$'$END$&#10;];" description="Has many" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="docrud" value="/* ==========================================&#10; * CRUD&#10; * ========================================*/&#10;&#10;public function canView($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canView($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canEdit($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canEdit($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canDelete($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canDelete($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canCreate($member = null)&#10;{&#10;    if ($this-&gt;Parent()) {&#10;        return $this-&gt;Parent()-&gt;canCreate($member);&#10;    }&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}" description="DataObject with Parent specific crud" toReformat="false" toShortenFQNames="true">
     <context>
