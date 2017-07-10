@@ -12,6 +12,7 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="._LocalSettings" type="PLAIN_TEXT" />
       <mapping pattern="_block-themes.scss" type="PLAIN_TEXT" />
+      <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern="_manifest_exclude" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
