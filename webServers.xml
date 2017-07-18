@@ -73,22 +73,6 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="45d3f6ea-4327-4624-8165-c78bb51dd4e1" name="Nutribullet NZ" url="http://webdough.co.nz/~trgint">
-        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="49af346a-8846-4eda-99b1-d18f3e5c88cd" name="Nutribullet AUS" url="http://webdough.co.nz/~trgint">
-        <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
-      </webServer>
       <webServer id="9debd32c-9d99-403b-bc02-6d2d10aa9659" name="HomePlus Live" url="http://webdough.co.nz">
         <fileTransfer host="webdough.co.nz" port="21" rootFolder="/public_html">
           <advancedOptions>
