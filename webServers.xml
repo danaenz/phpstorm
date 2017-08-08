@@ -177,14 +177,6 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="bfd06ac7-f6ff-42ac-b8da-84a9e0e50d66" name="AKL Weddings" url="http://111.65.227.160">
-        <fileTransfer host="111.65.227.160" port="22" rootFolder="/var/www/vhosts/aucklandweddings.co.nz/httpdocs" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="d099149f-82ac-4864-93b2-268a2209d98d" name="Toast Assets" url="http://assets.toast.co.nz">
         <fileTransfer host="assets.toast.co.nz" port="21" rootFolder="/public_html">
           <advancedOptions>
