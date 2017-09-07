@@ -209,6 +209,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="5e425c20-6d4d-422f-ab28-15e0fb2c722c" name="Peninsula Live" url="http://ftp.peninsularentacar.co.nz">
+        <fileTransfer host="ftp.peninsularentacar.co.nz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
