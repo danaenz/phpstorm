@@ -217,6 +217,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="9cdcc3c1-a84f-4fc0-9b21-b6ef607da099" name="Dermnet Mediatemple" url="http://s38176.gridserver.com">
+        <fileTransfer host="s38176.gridserver.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
