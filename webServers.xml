@@ -225,6 +225,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="0dc8b6ef-4807-4af3-acc8-fdb7e3b21fc7" name="Dermnet Live" url="http://70.32.85.226">
+        <fileTransfer host="70.32.85.226" port="22" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/var/www/vhosts/hyrr-6jy2.accessdomain.com/www.dermnetnz.org" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
