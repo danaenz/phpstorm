@@ -4,11 +4,11 @@
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="hi" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="ChangeLog" type="PLAIN_TEXT" />
       <mapping pattern="_manifest_exclude" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="_block-themes.scss" type="PLAIN_TEXT" />
       <mapping pattern="silverstripe_version" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess.new.bak" type="PLAIN_TEXT" />
@@ -24,6 +24,7 @@
       <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="exe" type="PLAIN_TEXT" />
       <mapping ext="htc" type="PLAIN_TEXT" />
+      <mapping ext="bk" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
