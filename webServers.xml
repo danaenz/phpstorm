@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="babc938b-0a25-4311-a8a7-e7fac8bf322b" name="DermNet Livemode" url="http://in.livemode.nz">
+        <fileTransfer host="in.livemode.nz" port="234" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/home/dermnet/public_html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="234" />
+        </fileTransfer>
+      </webServer>
       <webServer id="598d4ad8-84c0-49d7-9761-4aaf2ce7cdb7" name="Stray UAT" url="http://dev.straytravel.com">
         <fileTransfer host="in.devmode.nz" port="21" rootFolder="/public_html">
           <advancedOptions>
