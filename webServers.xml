@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="babc938b-0a25-4311-a8a7-e7fac8bf322b" name="DermNet Livemode" url="http://in.livemode.nz">
-        <fileTransfer host="in.livemode.nz" port="234" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/home/dermnet/public_html" accessType="SFTP" keyPair="true">
+        <fileTransfer host="in.livemode.nz" port="234" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/home/dermnet/public_html/assets/Uploads" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
