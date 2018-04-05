@@ -3,6 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.ss" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -16,10 +17,12 @@
       <mask>*.js</mask>
       <mask>*</mask>
       <mask>*.s</mask>
-      <mask>*.ss</mask>
       <mask>p</mask>
       <mask>php</mask>
       <mask>*.php</mask>
+      <mask>s</mask>
+      <mask>ss</mask>
+      <mask>*.ss</mask>
     </recentFileMasks>
   </component>
 </application>
