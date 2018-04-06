@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="Project Files" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -15,8 +16,6 @@
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.yml</mask>
-      <mask>*.js</mask>
-      <mask>*</mask>
       <mask>*.s</mask>
       <mask>p</mask>
       <mask>php</mask>
@@ -24,6 +23,9 @@
       <mask>s</mask>
       <mask>ss</mask>
       <mask>*.ss</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
