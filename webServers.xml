@@ -233,6 +233,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="85d00e82-a2dd-4ddb-99cc-759fd600ffe7" name="Pond Issues AWS" url="http://13.211.94.25">
+        <fileTransfer host="13.211.94.25" port="22" privateKey="$USER_HOME$/.ssh/toast-silverstripe.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
