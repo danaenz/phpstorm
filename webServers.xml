@@ -241,6 +241,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="26d99c65-73f0-428b-bf5c-90c446636b73" name="DermNet Staging Mediatemple" url="http://70.32.85.226">
+        <fileTransfer host="70.32.85.226" port="22" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/var/www/vhosts/hyrr-6jy2.accessdomain.com/www.dermnetnz.org/assets-staging/assets" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
