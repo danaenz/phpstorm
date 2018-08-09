@@ -24,7 +24,6 @@
       <mask>*.pj</mask>
       <mask>*.p</mask>
       <mask>*.ph</mask>
-      <mask>*.yml</mask>
       <mask>*.ym</mask>
       <mask>*.y</mask>
       <mask>*.yaml</mask>
@@ -33,6 +32,7 @@
       <mask>php</mask>
       <mask>*.ss</mask>
       <mask>*.php</mask>
+      <mask>*.yml</mask>
     </recentFileMasks>
   </component>
 </application>
