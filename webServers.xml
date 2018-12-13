@@ -225,12 +225,12 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="9cdcc3c1-a84f-4fc0-9b21-b6ef607da099" name="Dermnet Mediatemple" url="http://s38176.gridserver.com">
-        <fileTransfer host="s38176.gridserver.com" port="21">
+      <webServer id="9cdcc3c1-a84f-4fc0-9b21-b6ef607da099" name="Dermnet Mediatemple" url="http://70.32.85.226">
+        <fileTransfer host="70.32.85.226" port="22" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="//var/www/vhosts/hyrr-6jy2.accessdomain.com/www.dermnetnz.org/assets-2018/assets/Uploads/" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="21" />
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="85d00e82-a2dd-4ddb-99cc-759fd600ffe7" name="Pond Issues AWS" url="http://13.211.94.25">
